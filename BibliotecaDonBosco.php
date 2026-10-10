@@ -2,10 +2,10 @@
 session_start();
 
 // Configuración de conexión a la base de datos
-$db_host = "p3plzcpnl509295.prod.phx3.secureserver.net";
-$db_user = "donbosco";
-$db_pass = "NairtsuR77.";
-$db_name = "biblioteca";
+$db_host = "mysql-bibliotecadonbosco.alwaysdata.net";
+$db_user = "bibliotecadonbosco_kevin";
+$db_pass = "FerYH23!.LuAuThMo2007";
+$db_name = "bibliotecadonbosco_bibliotecadonbosco";
 
 $conexion = new mysqli($db_host, $db_user, $db_pass, $db_name);
 if ($conexion->connect_error) {
