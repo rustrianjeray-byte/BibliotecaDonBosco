@@ -1,4 +1,3 @@
-Dockerfile
 FROM php:8.2-apache
 
 # Habilitar extensiones para conexión a base de datos (PDO y MySQL)
