@@ -398,7 +398,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["buscar"])) {
     <!-- Pestaña Créditos -->
     <div class="container" id="creditos">
         <h2>Créditos</h2>
-        <img src="folder/logo-colegio.png" alt="Logo Colegio" class="logo">
         <p style="color:#2B7FFF; text-align:center; font-weight:bold;">Proyecto desarrollado por:</p>
         <div class="creditos-grid">
             <div>Luis Andrés Tagüite Cifuentes</div>
@@ -419,7 +418,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["buscar"])) {
     <!-- Pestaña Prestar Libros -->
     <div class="container" id="Libpres">
         <h2>Solicitar Préstamo de Libro</h2>
-        <img src="folder/logo-colegio.png" alt="Logo Colegio" class="logo">
+
         
         <form method="post">
             <label>Código del libro: </label>
